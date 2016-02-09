@@ -39,7 +39,7 @@ Ahora podemos ya empezar a crear cada página de nuestra web.
 La página principal es home.php (inicio, portada)  
 
 Para que vaya al home también hay que cambiar la ruta en el header:  
-![](http://grabilla.com/06209-6e6500fd-a44d-407e-b5a7-100dfea54be3.png)
+![](http://grabilla.com/06209-4d3786ab-f025-486d-b519-35c19fa1c859.png)
 
 
 ## Cambiar el idioma [video](https://youtu.be/lWXvyRH2tpw)
