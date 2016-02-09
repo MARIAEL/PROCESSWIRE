@@ -40,10 +40,10 @@ La página principal es home.php (inicio, portada)
 
 Para que vaya al home también hay que cambiar la ruta en el header:  
 ```php
-	<li><a href="<?php echo $config->urls->root?>">Home</a></li>
-        <li><a href="<?php echo $config->urls->root?>nosotros/">About Us</a></li>
-        <li><a href="<?php echo $config->urls->root?>servicios">Servicios</a></li>
-        <li><a href="<?php echo $config->urls->root?>portfolio">Portfolio</a></li>
+<li><a href="<?php echo $config->urls->root?>">Home</a></li>
+<li><a href="<?php echo $config->urls->root?>nosotros/">About Us</a></li>
+<li><a href="<?php echo $config->urls->root?>servicios">Servicios</a></li>
+<li><a href="<?php echo $config->urls->root?>portfolio">Portfolio</a></li>
 ```
 
 ## Cambiar el idioma [video](https://youtu.be/lWXvyRH2tpw)
