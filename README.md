@@ -21,12 +21,25 @@
     # 
 ```
 
-## logo y fuentes
+## Logo y fuentes
 1. Si tenemos un logo o fuentes debemos seguir los mismos pasos que en el caso de css y js  
+
+
+## Imágenes  
+Actuaremos del mismo modo con las imágenes, tanto en el header como en cada página hay que cambiar la ruta:  
+
+```php
+    
+    <img class="img-responsive img-circle" src="<?php echo $config->urls->templates?>images/testimonials1.png">
+    # 
+```
 
 ## Páginas
 Ahora podemos ya empezar a crear cada página de nuestra web.  
 La página principal es home.php (inicio, portada)  
+
+Para que vaya al home también hay que cambiar la ruta en el header:  
+![](http://grabilla.com/06209-6e6500fd-a44d-407e-b5a7-100dfea54be3.png)
 
 
 ## Cambiar el idioma [video](https://youtu.be/lWXvyRH2tpw)
