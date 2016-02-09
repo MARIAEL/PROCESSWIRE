@@ -31,7 +31,7 @@ Actuaremos del mismo modo con las imágenes, tanto en el header como en cada pá
 ```php
     
     <img class="img-responsive img-circle" src="<?php echo $config->urls->templates?>images/testimonials1.png">
-    # 
+    
 ```
 
 ## Páginas
@@ -39,8 +39,12 @@ Ahora podemos ya empezar a crear cada página de nuestra web.
 La página principal es home.php (inicio, portada)  
 
 Para que vaya al home también hay que cambiar la ruta en el header:  
-![](http://grabilla.com/06209-4d3786ab-f025-486d-b519-35c19fa1c859.png)
-
+```php
+	<li><a href="<?php echo $config->urls->root?>">Home</a></li>
+        <li><a href="<?php echo $config->urls->root?>nosotros/">About Us</a></li>
+        <li><a href="<?php echo $config->urls->root?>servicios">Servicios</a></li>
+        <li><a href="<?php echo $config->urls->root?>portfolio">Portfolio</a></li>
+```
 
 ## Cambiar el idioma [video](https://youtu.be/lWXvyRH2tpw)
 1. En el menú principal: Modules > Core y activar "Languages Support"
