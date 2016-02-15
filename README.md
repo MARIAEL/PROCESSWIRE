@@ -13,12 +13,13 @@
 
 ## Instalar todos los ficheros CSS y JS necesarios para esta plantilla
 1. Arrastramos todos los css a nuestra carpeta de styles y los js a scripts ( por SFTP hacer upload folder)
-2. Hacer lo mismo con font e images
+2. Hacer lo mismo con font e images.
 3. Ahora en todas las lineas, tanto de css como de js sustituiremos de la siguiente forma
+
 ```php
-    # donde ponga por ejemplo: ccs/bootstrap.min.css  =>  
+    donde ponga por ejemplo: css/bootstrap.min.css  =>  
     <?php echo $config->urls->templates?>css/bootstrap.min.css  
-    # 
+    
 ```
 
 ## Logo y fuentes
@@ -49,13 +50,13 @@ Para que vaya al home también hay que cambiar la ruta en el header:
 ## Cambiar el idioma [video](https://youtu.be/lWXvyRH2tpw)
 1. En el menú principal: Modules > Core y activar "Languages Support"
 2. Ahora desde el menu principal ir a Setup y Languages, add new
-3. tanto es title como name poner **es**
+3. Tanto en title como name poner **es**
 4. En la nueva ventana que se ha abierto, pulsar el texto rojo a mitad de pantalla "language packs"
 5. Pinchar en Spanish(es-ES) v.2 y al final de la página darle a "Download this module"
 6. Arrastramos el fichero descargado a  Site Translation Files y en pocos segundo podemos pinchar en Save
 7. Ahora necesitamos decirle que nuestro idioma preferido es el español
 8. Vamos al menu Access > users y pinchamos en el nuestro
-9. Al final seleccionamos es y ya tenemos el idioma preferido.
+9. Al final seleccionamos **es** y ya tenemos el idioma preferido.
 
 ## Instalar angular
 1. Necesitamos instalar el módulo Pages2JSON
